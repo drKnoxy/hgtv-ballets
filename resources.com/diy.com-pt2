@@ -1,0 +1,94 @@
+curl 'https://submit.engagesciences.com/display/form/post' \
+    -H 'Pragma: no-cache' \
+    -H 'Origin: http://d.engagesciences.com' \
+    -H 'Accept-Encoding: gzip, deflate' \
+    -H 'Accept-Language: en-US,en;q=0.8,pt;q=0.6' \
+    -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36' \
+    -H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryw7Cg8irjxgULitL0' \
+    -H 'Accept: */*' \
+    -H 'Cache-Control: no-cache' \
+    -H 'Referer: http://d.engagesciences.com/display/container/dc/d45b9f69-9bce-4b06-96b1-ca8dd831da72/entry?source=diy' \
+    -H 'Connection: keep-alive' \
+    --data-binary $"------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"isXHR\"
+
+true
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"apikey\"
+
+a587a142-38bd-4a4b-ad68-939d090ab1d1
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"containerId\"
+
+d45b9f69-9bce-4b06-96b1-ca8dd831da72
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"formId\"
+
+78457
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"campaignId\"
+
+39333
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"container_guid\"
+
+e176e959-3414-484e-b79e-3d7b445b1bd1
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"stageMode\"
+
+
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"promotionId\"
+
+
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"ngxInvitedFriends\"
+
+
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"channelId\"
+
+10039
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"medium\"
+
+direct
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"source\"
+
+diy
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"channel\"
+
+website
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"content\"
+
+
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"activity\"
+
+
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"r\"
+
+
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"ngx_t_token\"
+
+pX2ObcJTgT24uEcFCxhetxbNzOXkJdtHQqZfatX3P4Q=
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"mcmid\"
+
+37938159270377361294028627171776531790
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"email\"
+
+melnix7@gmail.com
+------WebKitFormBoundaryw7Cg8irjxgULitL0
+Content-Disposition: form-data; name=\"ngx_remember_me\"
+
+true
+------WebKitFormBoundaryw7Cg8irjxgULitL0--
+" \
+--compressed
